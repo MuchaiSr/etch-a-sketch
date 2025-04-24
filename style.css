@@ -11,8 +11,8 @@ body {
 .container {
     width: 90vw;
     margin: 10px auto;
-    margin-top: 50px;
-    height: 90vh;
+    margin-top: 15px;
+    height: 94vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,3 +29,9 @@ body {
     background-color: #f0f8ff;
     transform: scale(1.1);        /* Slightly enlarge the div */
 }
+
+.hovered {
+    background-color: #3b7d3b80; /* This affects the actual trail, 
+                                   but note that the most important part is the JS logic  */
+  }
+  
